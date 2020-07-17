@@ -1,0 +1,27 @@
+2020-06-24 10:45:52 main.py[line:44] INFO {"event_definition_id": "this-is-a-test-notification", "event_definition_type": "test-dummy-v1", "event_definition_title": "Event Definition Test Title", "event_definition_description": "Event Definition Test Description", "job_definition_id": "<unknown>", "job_trigger_id": "<unknown>", "event": {"id": "NotificationTestId", "event_definition_type": "notification-test-v1", "event_definition_id": "EventDefinitionTestId", "origin_context": "urn:graylog:message:es:testIndex_42:b5e53442-12bb-4374-90ed-0deadbeefbaz", "timestamp": "2020-06-24T02:45:52.173Z", "timestamp_processing": "2020-06-24T02:45:52.173Z", "timerange_start": null, "timerange_end": null, "streams": ["000000000000000000000002"], "source_streams": [], "message": "Notification test message triggered from user <admin>", "source": "000000000000000000000001", "key_tuple": ["testkey"], "key": "testkey", "priority": 2, "alert": true, "fields": {"field1": "value1", "field2": "value2"}}, "backlog": []}
+2020-06-24 10:45:52 main.py[line:54] INFO {"errcode":0,"errmsg":"ok"}
+2020-06-24 10:46:44 main.py[line:44] INFO {"event_definition_id": "this-is-a-test-notification", "event_definition_type": "test-dummy-v1", "event_definition_title": "Event Definition Test Title", "event_definition_description": "Event Definition Test Description", "job_definition_id": "<unknown>", "job_trigger_id": "<unknown>", "event": {"id": "NotificationTestId", "event_definition_type": "notification-test-v1", "event_definition_id": "EventDefinitionTestId", "origin_context": "urn:graylog:message:es:testIndex_42:b5e53442-12bb-4374-90ed-0deadbeefbaz", "timestamp": "2020-06-24T02:46:44.428Z", "timestamp_processing": "2020-06-24T02:46:44.428Z", "timerange_start": null, "timerange_end": null, "streams": ["000000000000000000000002"], "source_streams": [], "message": "Notification test message triggered from user <admin>", "source": "000000000000000000000001", "key_tuple": ["testkey"], "key": "testkey", "priority": 2, "alert": true, "fields": {"field1": "value1", "field2": "value2"}}, "backlog": []}
+2020-07-16 14:31:58 main.py[line:37] INFO {'system_key': 'ali_sec_group', 'platform': '阿里云', 'secgroup': 'dbjump', 'protocol': 'TCP', 'srcip': '0.0.0.0/0', 'port': '22/22'}
+2020-07-16 14:31:58 main.py[line:65] INFO {"errcode":0,"errmsg":"ok"}
+2020-07-16 14:31:58 main.py[line:37] INFO {'system_key': 'ali_sec_group', 'platform': '阿里云', 'secgroup': 'dbjump', 'protocol': 'TCP', 'srcip': '0.0.0.0/0', 'port': '22/22'}
+2020-07-16 14:31:58 main.py[line:51] INFO {"errcode":0,"errmsg":"ok"}
+2020-07-16 14:32:01 main.py[line:37] INFO {'system_key': 'ali_sec_group', 'platform': '阿里云', 'secgroup': '预发布环境安全组', 'protocol': 'TCP', 'srcip': '0.0.0.0/0', 'port': '22/22'}
+2020-07-16 14:32:01 main.py[line:65] INFO {"errcode":0,"errmsg":"ok"}
+2020-07-16 14:32:01 main.py[line:37] INFO {'system_key': 'ali_sec_group', 'platform': '阿里云', 'secgroup': '预发布环境安全组', 'protocol': 'TCP', 'srcip': '0.0.0.0/0', 'port': '22/22'}
+2020-07-16 14:32:02 main.py[line:51] INFO {"errcode":0,"errmsg":"ok"}
+2020-07-16 14:57:21 main.py[line:37] INFO {'system_key': 'ali_sec_group', 'platform': '阿里云', 'secgroup': 'dbjump', 'protocol': 'TCP', 'srcip': '0.0.0.0/0', 'port': '22/22'}
+2020-07-16 14:57:21 main.py[line:65] INFO {"errcode":0,"errmsg":"ok"}
+2020-07-16 14:57:21 main.py[line:37] INFO {'system_key': 'ali_sec_group', 'platform': '阿里云', 'secgroup': 'dbjump', 'protocol': 'TCP', 'srcip': '0.0.0.0/0', 'port': '22/22'}
+2020-07-16 14:57:21 main.py[line:51] INFO {"errcode":0,"errmsg":"ok"}
+2020-07-16 14:57:24 main.py[line:37] INFO {'system_key': 'ali_sec_group', 'platform': '阿里云', 'secgroup': '预发布环境安全组', 'protocol': 'TCP', 'srcip': '0.0.0.0/0', 'port': '22/22'}
+2020-07-16 14:57:24 main.py[line:65] INFO {"errcode":0,"errmsg":"ok"}
+2020-07-16 14:57:24 main.py[line:37] INFO {'system_key': 'ali_sec_group', 'platform': '阿里云', 'secgroup': '预发布环境安全组', 'protocol': 'TCP', 'srcip': '0.0.0.0/0', 'port': '22/22'}
+2020-07-16 14:57:24 main.py[line:51] INFO {"errcode":0,"errmsg":"ok"}
+2020-07-16 14:57:28 main.py[line:37] INFO {'system_key': 'ali_sec_group', 'platform': '阿里云', 'secgroup': '集成测试安全组', 'protocol': 'TCP', 'srcip': '0.0.0.0/0', 'port': '3306/3306'}
+2020-07-16 14:57:28 main.py[line:65] INFO {"errcode":0,"errmsg":"ok"}
+2020-07-16 14:57:28 main.py[line:37] INFO {'system_key': 'ali_sec_group', 'platform': '阿里云', 'secgroup': '集成测试安全组', 'protocol': 'TCP', 'srcip': '0.0.0.0/0', 'port': '3306/3306'}
+2020-07-16 14:57:28 main.py[line:51] INFO {"errcode":0,"errmsg":"ok"}
+2020-07-16 14:57:31 main.py[line:37] INFO {'system_key': 'ali_sec_group', 'platform': '阿里云', 'secgroup': '集成测试安全组', 'protocol': 'TCP', 'srcip': '0.0.0.0/0', 'port': '21/21'}
+2020-07-16 14:57:31 main.py[line:65] INFO {"errcode":0,"errmsg":"ok"}
+2020-07-16 14:57:31 main.py[line:37] INFO {'system_key': 'ali_sec_group', 'platform': '阿里云', 'secgroup': '集成测试安全组', 'protocol': 'TCP', 'srcip': '0.0.0.0/0', 'port': '21/21'}
+2020-07-16 14:57:31 main.py[line:51] INFO {"errcode":0,"errmsg":"ok"}

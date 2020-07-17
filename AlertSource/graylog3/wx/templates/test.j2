@@ -1,0 +1,10 @@
+## [Graylog3告警信息](http://graylog.org)
+###### 类型 {{ event_definition_type}}
+###### 事件名 {{ event_definition_title}}
+###### t2 {{ event.id }}
+###### t3 {{ event["fields"].field1 }}
+{% for key, value in event["fields"].items() %}
+###### <font color=\"info\">{{ key }}</font>
+###### <font color=\"warning\">{{ value }}</font>
+{% endfor %}
+###### t3 {{ event.key_tuple[0] }}

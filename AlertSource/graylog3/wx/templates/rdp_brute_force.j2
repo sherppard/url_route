@@ -1,0 +1,10 @@
+## [Graylog3告警信息](http://graylog.org)
+> 类型 {{event_definition_type}}
+> 事件名 {{event_definition_title}}
+> 发生时间：`{{backlog[0].fields.EventReceivedTime}}`
+> 日志源定位：[{{backlog[0].id}}](http://172.16.1.193:9000/messages/{{backlog[0].index}}/{{backlog[0].id}})
+> 告警主机：{{event.source}}
+> 被入侵机器IP：`{{ event.fields.source_host }}`
+> 被入侵机器名称：`{{ event.fields.source }}`
+> 计数器：{{event.message}}
+> 处理建议：{{event_definition_description}}

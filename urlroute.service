@@ -1,0 +1,14 @@
+[Unit]
+Description=url route
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/url-route
+ExecStart=/usr/local/bin/pipenv run python main.py 8099
+Restart=always
+RestartSec=5
+StartLimitInterval=3
+RestartPreventExitStatus=137
+
+[Install]
+WantedBy=multi-user.target

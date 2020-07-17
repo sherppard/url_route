@@ -1,0 +1,8 @@
+{
+    "login_fail_type_3": "登录失败",
+    "rdp_brute_force": "3389暴力破解",
+    "test": "Event Definition Test Title",
+    "ali_riskport": "ali_sec_group",
+    "ucloud_riskport": "ucloud_fw_group",
+    "fw_riskport": "fw_port_map"
+}

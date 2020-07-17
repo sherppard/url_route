@@ -1,0 +1,4 @@
+[Alert_Channel]
+wxtest = https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=2effe5dc-b9xx-491f-94b0-826xxxx96
+wx = https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=933f493e-6a87-4xx6-a1b3-9xxxxaxxxb74
+dd = https://oapi.dingtalk.com/robot/send?access_token=0fe931675bbf1474xxxxxxxxxxxxxx3bd4d37f380c4ef1ec6afa249
