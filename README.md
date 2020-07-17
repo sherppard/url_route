@@ -6,4 +6,4 @@
 4. 采用jinja2模板引擎
 
 平台逻辑架构
-![](https://www.processon.com/view/link/5eeda5371e085326373751c4)
+![](img/logic.png)
