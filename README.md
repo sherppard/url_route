@@ -7,3 +7,13 @@
 
 平台逻辑架构
 ![](img/logic.png)
+
+调用方法：
+http://127.0.0.1/[系统]/[渠道]/alert
+举例：
+http://127.0.0.1/graylog3/wxtest/alert
+http://127.0.0.1/portmanage/wx/alert
+http://127.0.0.1/portmanage/dd/alert
+
+
+
