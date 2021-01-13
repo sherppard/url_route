@@ -71,7 +71,7 @@ portmanage = system_key
 > 计数器：{{ event.message}}
 > 处理建议：{{ event_definition_description}}
 ```
-告警截图
+告警截图  
 ![](img/告警截图.png) 
 
 
