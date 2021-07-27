@@ -3,7 +3,7 @@ chardet==3.0.4
 cheroot==8.3.0
 idna==2.9
 jaraco.functools==3.0.1
-Jinja2==2.11.2
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 more-itertools==8.4.0
 requests==2.24.0
